@@ -1,0 +1,56 @@
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+   
+    
+.container {
+    display: flex;
+    margin-top: 20px;
+    
+}
+h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+.input-box {
+    width: 400px;
+    
+}
+
+.card-box {
+    width: 400px;
+    
+}
+.card_box-link {
+    background-color: seagreen;
+}
+h2 {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.main__big_box {
+    margin-left: 35px;
+}
+
+.alert-box {
+    width: 800px;
+}
+
+.img-cap {
+    display: flex;
+}
+
+.card-img{
+    margin-right: 2rem;
+}
+
+.number-box{
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+.btn{
+    border: 1px solid #f8f9fa;
+}
