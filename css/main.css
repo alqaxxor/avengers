@@ -18,6 +18,8 @@ h1 {
     
 }
 
+
+
 .card-box {
     width: 400px;
     
@@ -31,16 +33,21 @@ h2 {
 }
 
 .main__big_box {
-    margin-left: 35px;
+    max-width:600px;
+    min-height: 700px;
+    
 }
 
 .alert-box {
     width: 800px;
 }
 
-.img-cap {
-    display: flex;
+.yout-link {
+    padding: 7px;
+    color: #25a159;
+    text-decoration: none;
 }
+
 
 .card-img{
     margin-right: 2rem;

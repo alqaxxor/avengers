@@ -1,111 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-        crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/main.css">
-        <title>Document</title>
-    </head>
-    <body>
-        
-       
-        
-       
-
-         <main> 
-            <h1>Movies catalog</h1>
-            <div class="container">
-                <div class="main__box">
-                    <input class="form-control form-control-lg input-box mt-1" type="text" placeholder="ave" aria-label=".form-control-lg example">
-                    <input class="form-control form-control-lg input-box mt-2" type="text" placeholder="5" aria-label=".form-control-lg example">
-                    <input class="form-control input-box mt-2" list="datalistOptions" id="exampleDataList" placeholder="All">
-                    <datalist id="datalistOptions">
-                    <option value="San Francisco">
-                    <option value="New York">
-                    <option value="Seattle">
-                    <option value="Los Angeles">
-                    <option value="Chicago">
-                    </datalist>
-                    <select class="form-select input-box mt-2" aria-label="Default select example">
-                        <option selected>Reating</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                      <div class="d-grid gap-2 input-box mt-2">
-                        <button class="btn btn-primary" type="button">Button</button>
-                      </div>
-                      <h2>Bookmarked Movies</h2>
-                      <div class="card card-box" style="width: 400px">
-                        <div class="card-body">
-                          <h5 class="card-title">
-                            Avengers : Infinty War
-                          </h5>
-                          <a href="#" class="btn btn-primary card_box-link mt-2">Go somewhere</a>
-                        </div>
-                      </div>
-                      <div class="card" style="width: 400px">
-                        <div class="card-body">
-                          <h5 class="card-title">
-                            The Avengers
-                          </h5>
-                          <a href="#" class="btn btn-primary card_box-link mt-2">Go somewhere</a>
-                        </div>
-                      </div>
-                      <div class="card" style="width: 400px">
-                        <div class="card-body">
-                          <h5 class="card-title">
-                            12 years a Slave
-                          </h5>
-                          <a href="#" class="btn btn-primary card_box-link mt-2">Go somewhere</a>
-                        </div>
-                      </div>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Avengers</title>
+</head>
+<body>
+  
+  
+  
+  
+  
+  <main> 
+    <h1>Movies catalog</h1>
+    <div class="container">
+      <div class="main__box">
+        <input class="form-control form-control-lg input-box mt-1" type="text" placeholder="ave" aria-label=".form-control-lg example">
+        <input class="form-control form-control-lg input-box mt-2" type="text" placeholder="5" aria-label=".form-control-lg example">
+        <input class="form-control input-box mt-2" list="datalistOptions" id="exampleDataList" placeholder="All">
+        <datalist id="datalistOptions">
+          <option value="San Francisco">
+            <option value="New York">
+              <option value="Seattle">
+                <option value="Los Angeles">
+                  <option value="Chicago">
+                  </datalist>
+                  
+                  <select class="form-select input-box mt-2" aria-label="Default select example">
+                    <option selected>Reating</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <div class="d-grid gap-2 input-box mt-2">
+                    <button class="btn btn-primary" type="button">Button</button>
+                  </div>
+                  
+                  <h2>Bookmarked Movies</h2>
+                  <div class="card card-box" style="width: 400px">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Avengers : Infinty War
+                      </h5>
+                      <a href="#" class="btn btn-primary card_box-link mt-2">Go somewhere</a>
+                    </div>
+                  </div>
+                  
+                  <div class="card" style="width: 400px">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        The Avengers
+                      </h5>
+                      <a href="#" class="btn btn-primary card_box-link mt-2">Go somewhere</a>
+                    </div>
+                  </div>
+                  
+                  <div class="card" style="width: 400px">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        12 years a Slave
+                      </h5>
+                      <a href="#" class="btn btn-primary card_box-link mt-2">Go somewhere</a>
+                    </div>
+                  </div>
                 </div>
+                
                 <div class="main__big_box">   
-                    <h3>Search catolog:20</h3>
-                    <div class="alert alert-primary alert-box role="alert"> 
-                       Use the form on the left to search for amovie
-                    </div>
-                    <div class="img-cap">
-                        <div class="card card-img" style="width: 24rem;">
-                            <img src="./img/first.jpg" class="card-img-top alt="hero">
-                            <div class="card-body">
-                              <h5 class="card-title">Avengers: Infinty War</h5>
-                              <p class="card-text">📅 2018</p>
-                              <p class="card-text ">⭐ 5.0</p>
-                              <button type="button" class="btn btn-outline-primary m-2">Watch trailer</button>
-                              <button type="button" class="btn btn-outline-secondary m-1">More info</button>
-                              <button type="button" class="btn btn-outline-success m-1">Bookmark</button>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 24rem;">
-                            <img src="./img/second.jpg" class="card-img-top" alt="iron man">
-                            <div class="card-body">
-                              <h5 class="card-title">The Iron Man</h5>
-                              <p class="card-text">📅 2018</p>
-                              <p class="card-text">⭐ 5.0</p>
-                              <button type="button" class="btn btn-outline-primary m-2">Watch trailer</button>
-                              <button type="button" class="btn btn-outline-secondary m-1">More info</button>
-                              <button type="button" class="btn btn-outline-success m-1">Bookmark</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                        <div class="btn-group number-box me-2" role="group" aria-label="First group">
-                          <button type="button" class="btn btn-primary">1</button>
-                          <button type="button" class="btn btn-outline-success">2</button>
-                          <button type="button" class="btn btn-outline-secondary">3</button>
-                          <button type="button" class="btn btn-outline-success">4</button>
-                        </div>
+                  <h3>Search catolog:20</h3>
+                  <div class="alert alert-primary alert-box role="alert"> 
+                    Use the form on the left to search for amovie
+                  </div>
+                  <!-- ________________________________________ -->
+                  
+                  <div class="img-cap" id="card-poster">
+                    <div class="card card-img" style="width: 24rem;">
+                      <img src="https://i3.ytimg.com/vi/4hZi5QaMBFc/maxresdefault.jpg" class="card-img-top alt="hero">
+                      <div class="card-body"> 
+                        
+                        <h5 class="card-title">Avengers: Infinty War</h5>
+                        <h3 class="card-text">📅 2018</h3>
+                        <p class="card-text ">⭐ 5.0</p>
+                        
+                        <a class="yout-link m-2 " href="https://www.youtube.com/watch?v=4hZi5QaMBFc" target="blank"> Watch trailer</a>
+                        <button type="button" class="btn btn-outline-secondary m-1">More info</button>
+                        <button type="button" class="btn btn-outline-success m-1">Bookmark</button>
+                        
+                        
+                        
+                        
+                        <!-- </div> card-body -->
+                        <!-- </div> -->
+                      </div>  <!-- img-cap -->
+                    </div> <!-- end of container-->
+                  </main>
+                  <script src="./js/movies.js"></script>                     
+                  <script src="./js/main.js"></script>                       
+                </body>
+                </html>
+                
+                
+                
+                
+                
+                <!-- <div class="card" style="width: 24rem;">
+                  <img src="./img/second.jpg" class="card-img-top" alt="iron man">
+                  <div class="card-body">
+                    <h5 class="card-title">The Iron Man</h5>
+                    <p class="card-text">📅 2018</p>
+                    <p class="card-text">⭐ 5.0</p>
+                    <button type="button" class="btn btn-outline-primary m-2">Watch trailer</button>
+                    <button type="button" class="btn btn-outline-secondary m-1">More info</button>
+                    <button type="button" class="btn btn-outline-success m-1">Bookmark</button>
+                  </div>
                 </div>
-            </div>
-        </main>
-
-                               
-                                
-    </body>
-    </html>
+              </div> -->
+              <!-- <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group number-box me-2" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary">1</button>
+                  <button type="button" class="btn btn-outline-success">2</button>
+                  <button type="button" class="btn btn-outline-secondary">3</button>
+                  <button type="button" class="btn btn-outline-success">4</button>
+                </div> -->
